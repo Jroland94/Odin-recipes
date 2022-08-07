@@ -23,11 +23,18 @@ img{
 div{
     /* command slash voor comment */
 
-
+/* display : flex; zet flexbox aan om elementen naast of onder elkaar te plaatsen of centreren */
     display: flex;
+
+    /* align-items bepaald de positie binnen de flexbox */
     align-items: center;
+
+    /* justify-content bepaald ook de positief binnen de flexbox */
     justify-content: center;
+
+    /* flex direction bepaald de richting van de flow(sortering) */
     flex-direction: column;
+    
     /* border is de outline en 2px geeft dikte */
     border: 2px solid black; 
 
