@@ -1,0 +1,55 @@
+
+/* ster selecteer alle elementen. */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* punt is voor een class en hashtag is voor een id,
+het verschil tussen class en id is dat je een class meerdere malen kunt gebruiken en id eenmalig */
+.titel{
+    color:peru;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+
+}
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* div is een wrapper en is een groep voor elementen (bvb een <h1>) */
+div{
+    /* command slash voor comment */
+
+    /* border is de outline en 2px geeft dikte */
+    border: 2px solid black; 
+
+    /* max-width geeft de maximale breedte aan, fit content fits the content */
+    max-width: fit-content;
+
+    /* padding geeft de ruimte aan de binnenkant tussen de border */
+    padding: 16px;
+
+    /* border radius geeft ronde hoeken aan de border */
+    border-radius: 10px;
+
+    /* box-shadow geeft schaduw an de border x-y-blur-kleur en geef je altijd opacity (0.173 = 17% */
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.173);
+
+    /* margin geeft de ruimte buiten de border aan */
+    margin: 16px;
+
+    /* transition is de overgang (een standaard is 0.3s */
+    transition: 0.3s ease;
+}
+
+/* div:hover overlapt de normale div bij mouseover */
+div:hover{
+
+    /*  */
+    padding: 20px;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.549);
+
+}
