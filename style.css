@@ -23,6 +23,11 @@ img{
 div{
     /* command slash voor comment */
 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     /* border is de outline en 2px geeft dikte */
     border: 2px solid black; 
 
